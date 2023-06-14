@@ -1,0 +1,104 @@
+.Nat{
+    height: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url('Home1.jpg');
+    transition: 1s ease-in-out;
+}
+.ln{
+    color: white;
+    margin-right: 30px;
+    color: yellow;
+    margin-left: 30px;
+}
+.txt{
+    display: flex;
+    height: 100vh;
+    font-size: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 213, 255);
+}
+hr{
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    float: right;
+column-gap: 20px;
+}
+@keyframes mypic{
+    0%{
+        background-image: url('jett-valorant-4k-3840x2160-12114.jpg');
+    }
+    25%{
+        background-image: url('cod.jpg');
+    }
+    50%{
+        background-image: url('Pubg1.jpg');
+    }
+    75%{
+        background-image: url('Pubg2.jpg');
+    }
+    100%{
+        background-image: url('Asp9.jpg');
+    }
+}
+.Nat:hover{
+    color: red;
+    animation: mypic 5s ease-in-out infinite;
+}
+form{
+    text-align: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.log{
+    background-color: rgba(0, 0, 0,40%);
+    color: white;
+    width: 300px;
+    margin: auto;
+    height: 40vh;
+    border: solid;
+    box-shadow: 2px;
+    margin-top: 15%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+body{
+    background-image: url('Home1.jpg');
+}
+.sin{
+    border: solid;
+    border-color: white;
+    border-radius: 15%;
+    color: white;
+    display: flex;
+    background-color: rgba(0,0,0,40%);
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 375px;
+    margin-top: 150px;
+}
+form{
+    margin-top: 12%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: chartreuse;
+}
+/* button{
+    width: 85px;
+    height: 30px;
+} */
+
+
+
